@@ -183,7 +183,7 @@ This is an example of things you need to use the application and how to install 
 
 1. Clone the repo
 ```sh
-git clone https://github.com/reijiren/Ankasa-Ticketing.git
+git clone https://github.com/reijiren/AnkasaAPP.git
 ```
 2. Install NPM packages
 ```sh
