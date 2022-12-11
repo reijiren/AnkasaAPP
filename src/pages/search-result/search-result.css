@@ -1,0 +1,420 @@
+/* import font */
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+.container-fluid-search-result {
+    height: auto;
+    background-color: #F5F6FA;
+    padding-bottom: 50px;
+}
+
+.background-blue-search-result {
+    background-color: #2395FF;
+    height: auto;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.background-blue-search-result img {
+    height: auto;
+    width: 170px;
+}
+
+.container-fluid-search-result .search-container-fluid-search-result {
+    margin-top: 70px;
+    margin-left: -50px;
+    padding-bottom: 0px !important;
+    font-size: 17px;
+    color: white;
+}
+
+.container-fluid-search-result .search-container-fluid-search-result input{
+    background-color: #FFFFFF;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px #0040ff;
+    font-size: 15px;
+    height: 35px;
+    width: auto;
+    padding-left: 10px;
+}
+
+.container-fluid-search-result .search-container-fluid-search-result .icon-airplane img{
+    height: auto;
+    width: 50px;
+    padding-top: 23px;
+}
+
+.container-fluid-search-result .search-container-fluid-search-result .icon-switch img{
+    height: auto;
+    width: 20px;
+    padding-top: 35px;
+}
+
+.container-fluid-search-result .search-container-fluid-search-result .result-search{
+   margin-left: 75px;
+   font-size: 14px;
+}
+
+.container-fluid-search-result .search-container-fluid-search-result .result-search .icon-hole img{
+    height: 5px;
+    width: 5px;
+}
+
+.container-fluid-search-result .bottom-container-fluid-search-result button {
+    margin-top: 100px;
+    color: white;
+    border: none;
+    font-size: 17px;
+    background-color: #2395FF;
+}
+
+/* CSS FILTER */
+
+.container-main-search-result .title-filter-search-result .button-title-filter-search-result {
+    border: none;
+    background-color:  #F5F6FA;
+    padding-left: 220px;
+    color: #2395FF;
+}
+
+.container-main-search-result .form-filter-search-result {
+    background-color: #FFFFFF;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(221, 216, 216);
+}
+
+.container-main-search-result .form-filter-search-result .collapse-transit button {
+    background-color: #FFFFFF;
+    border: none;
+    width: 100%;
+}
+
+.container-main-search-result .form-filter-search-result {
+    padding: 30px;
+}
+
+
+.container-main-search-result .form-filter-search-result .airline button {
+    width: 100%;
+    border: none;
+    background-color: #FFFFFF;
+    
+}
+
+.container-main-search-result .form-filter-search-result .airline .icon-collapse-airline {
+    padding-left: 180px;
+    color: #2395FF;
+}
+
+.container-main-search-result .form-filter-search-result .airline input {
+    margin-left: -18px;
+}
+
+.container-main-search-result .form-filter-search-result .airline .collapse-airline {
+    padding-left: 10px;
+}
+
+.container-main-search-result .form-filter-search-result .type button {
+    width: 100%;
+    border: none;
+    background-color: #FFFFFF;
+    
+}
+
+.container-main-search-result .form-filter-search-result .type .icon-filter-type {
+    padding-left: 194px;
+    color: #2395FF;
+}
+
+.container-main-search-result .form-filter-search-result .type input {
+    margin-left: -18px;
+}
+
+.container-main-search-result .form-filter-search-result .type .collapse-type {
+    padding-left: 10px;
+}
+
+.container-main-search-result .form-filter-search-result .transit button {
+    width: 100%;
+    border: none;
+    background-color: #FFFFFF;
+    
+}
+
+.container-main-search-result .form-filter-search-result .transit .icon-filter-transit {
+    padding-left: 178px;
+    color: #2395FF;
+}
+
+.container-main-search-result .form-filter-search-result .transit input {
+    margin-left: -18px;
+}
+
+.container-main-search-result .form-filter-search-result .transit .collapse-transit {
+    padding-left: 10px;
+}
+
+.container-main-search-result .form-filter-search-result .facilities button {
+    width: 100%;
+    border: none;
+    background-color: #FFFFFF;
+    
+}
+
+.container-main-search-result .form-filter-search-result .facilities .icon-filter-facilities {
+    padding-left: 165px;
+    color: #2395FF;
+}
+
+.container-main-search-result .form-filter-search-result .facilities input {
+    margin-left: -18px;
+}
+
+.container-main-search-result .form-filter-search-result .facilities .collapse-facilities {
+    padding-left: 10px;
+}
+
+
+
+/* CSS SELECT TICKET */
+
+.container-main-search-result .container-select-ticket-search-result .title-select-ticket-search-result span {
+    margin-left: -20px;
+}
+
+.container-main-search-result .container-select-ticket-search-result .title-select-ticket-search-result .sorting-title-select-ticket-search-result {
+    padding-left: 400px;
+}
+
+.container-main-search-result .container-select-ticket-search-result .title-select-ticket-search-result .sorting-title-select-ticket-search-result .dropdown-sorting button{
+    border: none;
+}
+
+.container-main-search-result .container-select-ticket-search-result .title-select-ticket-search-result .sorting-title-select-ticket-search-result .dropdown-sorting button:hover{
+    background-color: #2395FF;
+    color: white;
+}
+
+.container-main-search-result .container-select-ticket-search-result .title-select-ticket-search-result .sorting-title-select-ticket-search-result .dropdown-menu {
+    background-color: #2395FF;
+    border: none;
+}
+
+.container-main-search-result .container-select-ticket-search-result .title-select-ticket-search-result .sorting-title-select-ticket-search-result .dropdown-menu li a {
+    color: white;
+}
+
+.container-main-search-result .container-select-ticket-search-result .title-select-ticket-search-result .sorting-title-select-ticket-search-result .dropdown-menu li a:hover {
+    background-color: white;
+    color: #2395FF;
+}
+
+/* .container-main-search-result .container-select-ticket-search-result .title-select-ticket-search-result .button-sorting {
+    border: none;
+    background-color: #F5F6FA;
+    margin-left: -20px;
+} */
+
+.container-main-search-result .form-select-ticket-search-result .select-ticket-search-result {
+    background-color: #FFFFFF;
+    height: auto;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 2px 2px 10px rgb(221, 216, 216);
+    margin-bottom: 20px;
+}
+
+.container-main-search-result .form-select-ticket-search-result .select-ticket-search-result .logo-airline img {
+    width: 100px;
+    height: auto;
+}
+
+
+.container-main-search-result .form-select-ticket-search-result .select-ticket-search-result .btn-info {
+    color: #2395FF;
+    background-color: white;
+    border: none;
+}
+
+.container-main-search-result .form-select-ticket-search-result .select-ticket-search-result .facility-select-ticket {
+    margin-left: -80px;
+}
+
+.container-main-search-result .form-select-ticket-search-result .select-ticket-search-result .facility-select-ticket .facility-select-ticket-food img {
+    margin-left: -15px;
+}
+
+.container-main-search-result .form-select-ticket-search-result .select-ticket-search-result .facility-select-ticket .facility-select-ticket-wifi img {
+    margin-left: -15px;
+}
+
+.container-main-search-result .form-select-ticket-search-result .select-ticket-search-result .count-select-ticket h6 {
+    color: #2395FF;
+}
+
+.container-main-search-result .form-select-ticket-search-result .select-ticket-search-result .pax-select-ticket {
+    margin-left: -20px;
+}
+
+.container-main-search-result .form-select-ticket-search-result .select-ticket-search-result .button-select-ticket button {
+    border: none;
+    background-color: #2395FF;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 5px 10px rgba(35, 149, 255, 0.3);
+    margin-top: -5px;
+}
+
+.container-main-search-result .form-select-ticket-search-result .select-ticket-search-result .btn-view-detail .view-detail-ticket {
+    padding: 30px;
+    background-color: #FFFFFF;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(221, 216, 216);
+}
+
+.container-main-search-result .form-select-ticket-search-result .select-ticket-search-result .btn-view-detail .view-detail-ticket p{
+    border-bottom: 2px solid rgba(210, 194, 255, 0.68);
+    padding-bottom: 5px;
+}
+
+.container-main-search-result .form-select-ticket-search-result .select-ticket-search-result .btn-view-detail .view-detail-ticket .view-detail-ticket-left {
+    padding: 20px;
+    border-right: 2px dashed rgb(202, 193, 193);
+}
+
+.container-main-search-result .form-select-ticket-search-result .select-ticket-search-result .btn-view-detail .view-detail-ticket .view-detail-ticket-right {
+    padding: 20px;
+    padding-left: 30px !important;
+}
+
+@media (max-width: 720px) {
+    .background-blue-search-result img {
+        display: none;
+    }
+
+    /* CSS FILTER */
+
+    .container-main-search-result .form-filter-search-result .airline input {
+        margin-left: 242px;
+        margin-top: -27px;
+        
+    }
+
+    .container-main-search-result .form-filter-search-result .type input {
+        margin-left: 242px;
+        margin-top: -27px;
+        
+    }
+
+    .container-main-search-result .form-filter-search-result .transit input {
+        margin-left: 242px;
+        margin-top: -27px;
+        
+    }
+
+    .container-main-search-result .form-filter-search-result .facilities input {
+        margin-left: 242px;
+        margin-top: -27px;
+        
+    }
+
+    /* SELECT BUTTON SORTING */
+    .container-main-search-result .container-select-ticket-search-result .title-select-ticket-search-result .sorting-title-select-ticket-search-result {
+        padding-left: 13px;
+    }
+
+    .container-main-search-result .container-select-ticket-search-result .title-select-ticket-search-result {
+        margin: 20px;
+    }
+
+    /* BACKGROUND BIRU */
+    .background-blue-search-result {
+        background-color: #2395FF;
+        height: auto;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    
+    .background-blue-search-result img {
+        display: none;
+    }
+    
+
+    /* PENCARIAN */
+    .container-fluid-search-result .search-container-fluid-search-result {
+        height: auto;
+        padding-top: 20px;
+        padding-left: 100px;  
+    }
+    
+    .container-fluid-search-result .search-container-fluid-search-result input{
+        background-color: #FFFFFF;
+        border: 1px solid white;
+        border-radius: 15px;
+        box-shadow: 2px 2px 6px #1c45c2;
+        font-size: 15px;
+        height: 30px;
+        width: auto;
+    }
+
+    .container-fluid-search-result .search-container-fluid-search-result .input-from{
+        margin-bottom: 10px;
+        margin-left: 23px;
+    }
+
+    .container-fluid-search-result .search-container-fluid-search-result .input-from input{
+        width: 250px;
+        height: 40px;
+        border-radius: 20px;
+    }
+
+    .container-fluid-search-result .search-container-fluid-search-result .input-to{
+        margin-left: 23px;
+    }
+
+    .container-fluid-search-result .search-container-fluid-search-result .input-to input{
+        width: 250px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    
+
+    .container-fluid-search-result .search-container-fluid-search-result .result-search{
+       font-size: 14px;
+       margin-top: 10px;
+    }
+
+    .container-fluid-search-result .search-container-fluid-search-result .result-search .date{
+       margin-left: -91px;
+       margin-top: 20px;
+    }
+
+    .container-fluid-search-result .search-container-fluid-search-result .result-search .passenger{
+        margin-left: -25px;
+        margin-top: 20px;
+    }
+
+    .container-fluid-search-result .search-container-fluid-search-result .result-search .class{
+        margin-left: -25px;
+        margin-top: 20px;
+    }
+
+    .container-fluid-search-result .bottom-container-fluid-search-result button {
+        margin-top: 10px;
+        color: #FFFFFF;
+        border: none;
+        height: 35px;
+        font-size: 17px;
+        background-color: #1383df;
+        margin-bottom: 30px;
+        margin-left: 85px;
+        border-radius: 15px;
+        box-shadow: 1px 1px 4px rgb(23, 54, 114);
+        width: 200px;
+    }
+    
+}

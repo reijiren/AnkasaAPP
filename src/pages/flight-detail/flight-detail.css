@@ -1,0 +1,214 @@
+
+.container-fluid-flight-detail {
+    background-color: #F5F6FA;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.background-title {
+    background-color: #2395FF;
+    height: 135px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.background-title img {
+    height: auto;
+    display: block;
+    width: 170px;
+    margin-top: 40px;
+}
+
+.container-main {
+    margin-top: -80px;
+}
+
+/* CONTACT PERSON DETAILS */
+
+.title-contact-person-details {
+    margin-bottom: 25px;
+}
+
+.title-contact-person-details h5 {
+    color: white;
+    
+}
+
+.form-contact-person-details {
+    background-color: #FFFFFF;
+    height: auto;
+    border-radius: 15px;
+    padding-bottom: 15px;
+    box-shadow: 2px 2px 10px rgb(221, 216, 216);
+}
+
+.form-contact-person-details form {
+    margin: 30px;
+ }
+ 
+
+.form-contact-person-details input {
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-color: rgba(210, 194, 255, 0.68);
+   border-width: 2px;
+   border-radius: 0px;
+}
+
+/* CSS FLIGHT DETAILS */
+
+.title-flight-details {
+    color: white;
+    margin-bottom: 25px;
+}
+
+.flight-details .title-flight-details span {
+    padding-left: 100px;
+}
+
+
+.form-flight-details {
+    background-color: #FFFFFF;
+    height: auto;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 2px 2px 10px rgb(221, 216, 216);
+}
+
+.form-flight-details .name-airplane {
+    padding-left:10px ;
+    padding-top: 20px;
+}
+
+.form-flight-details .rute-airplane span {
+    font-size: 17px;
+    color: black;
+}
+
+.form-flight-details .date-airplane {
+    font-size: 12px;
+}
+
+.form-flight-details .clock-airplane {
+    font-size: 12px;
+}
+
+.form-flight-details .icon-airplane-two img {
+    height: auto;
+    width: 5px;
+    padding-bottom: 10px;
+}
+
+.form-flight-details .payment .count-payment h4 {
+    color: #2395FF;
+}
+
+.form-flight-details .facility .refundable span {
+    color: #2395FF;
+    padding-left: 10px;
+}
+
+.form-flight-details .facility .reschedule span {
+    color: #2395FF;
+    padding-left: 10px;
+}
+
+/* CSS PASSENGER DETAILS ONE */
+
+.passenger-details-one {
+    margin-top: 40px;
+}
+
+.title-passenger-details-one {
+    margin-bottom: 30px;
+}
+
+.form-passenger-details-one {
+    background-color: #FFFFFF;
+    height: auto;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 2px 2px 10px rgb(221, 216, 216);
+}
+
+.form-passenger-details-one form {
+    margin: 30px;
+}
+
+.form-passenger-details-one .passenger {
+   background-color: rgba(35, 149, 255, 0.1);
+   border-radius: 10px;
+   height: 50px;
+   margin-top: 20px;
+   padding: 10px;
+}
+ 
+
+.form-passenger-details-one input {
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-color: rgba(210, 194, 255, 0.68);
+   border-width: 2px;
+   border-radius: 0px;
+}
+
+.form-passenger-details-one select {
+    border-top: none;
+   border-left: none;
+   border-right: none;
+   border-color: rgba(210, 194, 255, 0.68);
+   border-width: 2px;
+   border-radius: 0px;
+   width: 100%;
+   padding-left: 10px;
+}
+
+/* CSS PASSENGER DETAILS TWO */
+
+.passenger-details-two {
+    margin-top: 40px;
+}
+
+.title-passenger-details-two {
+    margin-bottom: 30px;
+}
+
+.form-passenger-details-two {
+    background-color: #FFFFFF;
+    height: auto;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 2px 2px 10px rgb(221, 216, 216);
+}
+
+/* CSS BUTTON PAYMENT */
+
+.container-fluid-flight-detail .container-main .button-payment button{
+    border: none;
+    background-color: #2395FF;
+    color: white;
+    height: 50px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0px 8px 10px rgba(35, 149, 255, 0.3);
+}
+
+@media (max-width: 720px) {
+    .flight-details .title-flight-details h5 {
+        padding-top: 35px;
+        color: black;
+    }
+
+    .flight-details .title-flight-details span {
+        padding-top: 35px;
+        color: black;
+    }
+
+    .flight-details .title-flight-details .button-view-detail {
+        padding-top: 34px;
+        
+    }
+}
+

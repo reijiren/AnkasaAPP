@@ -1,0 +1,67 @@
+.container-fluid-booking-detail {
+    background-color: #2395FF;
+    height: auto;
+    padding-left: 80px;
+    padding-bottom: 70px;
+    padding-right: 80px;
+    padding-top:120px ;
+}
+
+.container-booking-detail .ticket-flight {
+    height: auto;
+    width: auto;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 8px 8px 27px rgba(8, 26, 43, 0.19);
+    padding: 50px;
+}
+
+.container-booking-detail .ticket-flight .titik-tiga img{
+    display: list-item;
+    margin-left: 800px;
+    margin-top: 5px;
+}
+
+.container-booking-detail .ticket-flight .ticket-flight-main {
+    height: auto;
+}
+
+.container-booking-detail .ticket-flight .ticket-flight-main .ticket-flight-main-left-border {
+   padding: 50px;
+   border-right: 4px dashed #E5E5E5 !important;
+   border: 2px solid #E5E5E5;
+   border-radius: 20px;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+
+.container-booking-detail .ticket-flight .ticket-flight-main .ticket-flight-main-right-border {
+    border-left: 0px dashed #E5E5E5 !important;
+    border-radius: 20px;
+    border: 2px solid #E5E5E5;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 80px;
+}
+
+@media (max-width: 720px) {
+    .container-booking-detail .ticket-flight .ticket-flight-main .ticket-flight-main-left-border {
+        padding: 40px;
+        border-right: 2px solid #E5E5E5 !important;
+        border: 2px solid #E5E5E5;
+        border-bottom: 3px dashed #E5E5E5;
+        border-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+     }
+
+    .container-booking-detail .ticket-flight .ticket-flight-main .ticket-flight-main-right-border {
+        border-left: 2px solid #E5E5E5 !important;
+        border-radius: 20px;
+        border: 2px solid #E5E5E5;
+        border-top: none !important;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        padding-top: 0px;
+    }
+}

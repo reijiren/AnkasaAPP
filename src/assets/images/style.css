@@ -1,0 +1,115 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+    font-family: 'Poppins';
+}
+.ms-10{
+    margin-left: 100px !important;
+}
+
+ .listStyle{
+    list-style: none;
+ }
+
+ .listStyle a{
+    text-decoration: none;
+    color: #6c757d;
+    display: flex;
+ }
+
+ .footer-down {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .imgFooter{
+    margin-left: -25px;
+  }
+
+  .customMainProfile{
+    margin-top: 55px;
+  }
+
+  .blue{
+    color:#2395FF;
+  }
+  .bgBlue{
+    background-color: #2395FF;
+  }
+
+  .customBorderProfile{
+    border-radius: 15px !important;
+  }
+
+  .customBorder{
+    border: 3px solid #2395FF !important;
+  }
+  .customBorderInput{
+    border: none;
+  }
+
+  .bgImage{
+    background-image: url("bgImageTopDest.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+  }
+
+  .infoNext {
+    background-color: white;
+    color: #2395FF;
+    width: 50px;
+  }
+  
+  .infoNext:hover {
+    background-color: #a3b0bc;
+    border-color: white;
+    color: white;
+  }
+
+  .infoBack {
+    border-color: white;
+    color: white;
+    width: 50px;
+  }
+  .infoBack:hover {
+    background: white;
+    color: #2395FF;
+  }
+
+  .wArrow{
+    font-size: 30px !important;
+  }
+
+  .textFlight{
+    color: #2395FF;
+  }
+
+  .customImageBubble{
+    margin-top: 10px;
+    margin-right:100px ;
+  }
+  /* media query footer */
+    @media (max-width: 767px) {
+        .mobileOuterFooter{
+            padding: 30px 0 0 0 !important;
+        }
+        .mobileInnerFooter{
+            padding:0 !important;
+            margin-left: 3px;
+        }
+    }
+/* media query profile navbar */
+@media (max-width: 767px) {
+    .mobileProfileNavbar{
+        margin-left: 50px !important;
+    }
+}
+
+/* media query card profile */
+@media (max-width: 767px) {
+    .customTitleCard{
+        margin-bottom: -50px !important;
+    }
+}
