@@ -237,7 +237,7 @@ const LandingPage = () => {
               <h2 className="fw-bold mb-3">Trending Destinations</h2>
             </div>
           </div>
-          {flight.flight.length > 0 ? (
+          {flight.flight?.length > 0 ? (
             <div className="customSpace">
               <Swiper
                 spaceBetween={30}
