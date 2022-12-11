@@ -77,7 +77,7 @@ const FlightList = () => {
 					{flight == undefined ? (
 						<h1>No data flight</h1>
 					) : (
-						flight.flight.map((item, index) => {
+						flight.flight?.map((item, index) => {
 							return (
 								<div
 									key={index}

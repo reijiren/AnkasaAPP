@@ -270,7 +270,7 @@ const LandingPage = () => {
                 ) : flight.flight == "" ? (
                   <h1>Data is not found</h1>
                 ) : (
-                  flight.flight.map((data, i) => (
+                  flight.flight?.map((data, i) => (
                     <SwiperSlide key={data.id_flight}>
                       <div className="cardSlider">
                         <div className="cardOverlay" />
@@ -351,7 +351,7 @@ const LandingPage = () => {
                       ) : flight.flight == "" ? (
                         <h1>Data is not found</h1>
                       ) : (
-                        flight.flight.map((data) => (
+                        flight.flight?.map((data) => (
                           <SwiperSlide key={data.id_flight}>
                             <div className="col-lg-2 spaceCust p-5 mb-4 d-flex justify-content-center">
                               <div className="row">

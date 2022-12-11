@@ -72,7 +72,7 @@ const SearchFlightDetail = () => {
 				) : flight.isError ? (
 					<div></div>
 				) : (
-					flight.flight.map((item, index) => {
+					flight.flight?.map((item, index) => {
 						return (
 							<div
 								key={index}

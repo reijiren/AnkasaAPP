@@ -288,7 +288,7 @@ const SeacrhResult = () => {
                           <div className="mt-2 col-md-10">
                             <span>No Airline Found</span>
                           </div>
-                        ) : listAirline.map((e, i) => (
+                        ) : listAirline?.map((e, i) => (
                           <div key={i} className="row">
                             <div className="mt-2 col-md-10">
                               <span>{e.name}</span>
@@ -537,7 +537,7 @@ const SeacrhResult = () => {
                   Data not found!
                 </span>
               ) : (
-                ticket.map((data, index) => (
+                ticket?.map((data, index) => (
                   <div
                     key={index}
                     className="mt-3 form-select-ticket-search-result"

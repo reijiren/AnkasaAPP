@@ -121,7 +121,7 @@ const FlightDetail = () => {
                   </form>
                 </div>
               </div>
-              {ticket.map((data, index) => (
+              {ticket?.map((data, index) => (
                 <div key={index} className="passenger-details-one">
                   <div className="title-passenger-details-one">
                     <h5>Passenger Details</h5>
@@ -263,7 +263,7 @@ const FlightDetail = () => {
                 <div className="title-passenger-details-two">
                   <h5>Passenger Details</h5>
                 </div>
-                {ticket.map((data, index) => (
+                {ticket?.map((data, index) => (
                   <div key={index} className="form-passenger-details-two">
                     <div className="row">
                       <div className="col-auto">
@@ -324,7 +324,7 @@ const FlightDetail = () => {
                     </div>
                   </div>
                 </div>
-                {ticket.map((data, index) => (
+                {ticket?.map((data, index) => (
                   <div key={index} className="form-flight-details">
                     <div className="row">
                       <div className="col-auto brand-airplane">

@@ -38,7 +38,7 @@ const Mybook = () => {
               ) : booking.booking == "" ? (
                 <h1>Data is not found</h1>
               ) : (
-                booking.booking.map((data, index) => (
+                booking.booking?.map((data, index) => (
                   <div
                     key={index}
                     className="col-md-12 p-5 bg-white mt-4 ms-2 customBorderBooking2"
