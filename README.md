@@ -183,7 +183,7 @@ This is an example of things you need to use the application and how to install 
 
 1. Clone the repo
 ```sh
-git clone https://github.com/reijiren/Ankasa-Ticketing.git
+git clone https://github.com/reijiren/AnkasaAPP.git
 ```
 2. Install NPM packages
 ```sh
@@ -209,7 +209,7 @@ Contributions are what make the open source community such an amazing place to b
 
 <!-- RELATED PROJECT -->
 ## Related Project
-[Ankasa Ticketing RESTful API](https://github.com/reijiren/Ankasa-Ticketing/tree/main/Backend) used in this application
+[Ankasa Ticketing RESTful API](https://ankasa-nightlabs.cyclic.app) is used in this application.
 * [View API Documentation](https://github.com/reijiren/AnkasaAPI)
 
 
