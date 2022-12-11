@@ -209,7 +209,7 @@ Contributions are what make the open source community such an amazing place to b
 
 <!-- RELATED PROJECT -->
 ## Related Project
-[Ankasa Ticketing RESTful API](https://github.com/reijiren/Ankasa-Ticketing/tree/main/Backend) used in this application
+[Ankasa Ticketing RESTful API](https://ankasa-nightlabs.cyclic.app) is used in this application.
 * [View API Documentation](https://github.com/reijiren/AnkasaAPI)
 
 
