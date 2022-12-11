@@ -237,7 +237,7 @@ const LandingPage = () => {
               <h2 className="fw-bold mb-3">Trending Destinations</h2>
             </div>
           </div>
-          {flight.flight?.length > 0 ? (
+          {flight.flight && flight.flight?.length > 0 ? (
             <div className="customSpace">
               <Swiper
                 spaceBetween={30}
@@ -319,7 +319,7 @@ const LandingPage = () => {
                 </div>
               </div>
               <div className="row d-flex justify-content-center">
-                {flight.flight.length > 0 ? (
+                {flight.flight && flight.flight?.length > 0 ? (
                   <div className="">
                     <Swiper
                       spaceBetween={10}
