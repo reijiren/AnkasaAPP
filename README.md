@@ -3,7 +3,7 @@
 
   <h3 align="center">Ankasa Ticketing</h3>
   <p align="center">
-    <image align="center" width="200" src='./public/ankasa_logo.png' />
+    <image align="center" width="400" src='./public/ankasa_logo.png' />
   </p>
   <p align="center">
     <a href="https://ankasa-nightlabs.vercel.app">View Demo</a>
@@ -16,8 +16,9 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
+  * [Project Structure](#project-structure)
   * [Screenshots](#screenshots)
-  * [Built With](#built-with)
+  * [Package Modules](#package-modules)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
@@ -33,6 +34,21 @@
 Ankasa Ticketing is an application that allows users to find and order airline tickets. Ankasa Ticketing application will give all information about any airline available and any facilities that is provided. Users are able to find flight detail and book the flight. The application will calculate whether the user's balance is enough or not to complete the booking payment. If the user's balance is not enough, the booking status will be unpaid and user will need to complete the payment later. Users are able to edit their profile status in the profile page.
 
 
+### Project Structure
+```
+|── AnkasaAPP
+   |── public          # Public Assets
+   |── screenshot      # Screenshots of the application
+   |── src             # Project source code
+       |── assets      # Application assets
+       |── Components  # Application components
+       |── pages       # Pages source code
+       |── redux       # State management
+       |── router      # Endpoint
+   |── .env            # Environment variables   
+   |── .gitignore      # Files that should be ignored
+   |── README.md       # Readme
+```
 
 ### Screenshots
 <details>
@@ -161,13 +177,18 @@ Ankasa Ticketing is an application that allows users to find and order airline t
 <img src="./screenshot/admin/admin flight update.png" alt="admin update flight page" />
 </details>
 
-### Built With
+### Package Modules
 
-* [React JS](https://nodejs.org/en/docs/)
+Below are lists of modules used in this application:
+
+* [React JS](https://reactjs.org/)
 * [Bootstrap](https://getbootstrap.com/)
 * [Axios](https://axios-http.com/)
 * [jQuery](https://jquery.com/)
 * [Redux](https://redux.js.org/)
+* [Dotenv](https://www.npmjs.com/package/dotenv)
+* [Swiper](https://swiperjs.com/get-started)
+* [FontAwesome](https://fontawesome.com)
 
 
 <!-- GETTING STARTED -->
