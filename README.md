@@ -3,7 +3,7 @@
 
   <h3 align="center">Ankasa Ticketing</h3>
   <p align="center">
-    <image align="center" width="200" src='./assets/' />
+    <image align="center" width="200" src='./public/ankasa_logo.png' />
   </p>
   <p align="center">
     <a href="#">View Demo</a>
