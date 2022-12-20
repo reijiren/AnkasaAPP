@@ -70,6 +70,7 @@ const InsertFlight = () => {
 								className="form-control"
 								id="formGroupExampleInput"
 								placeholder="Example: AAP-229"
+								maxLength={10}
 								onChange={(e) => {
 									setForm({ ...form, id_flight: e.target.value });
 								}}
