@@ -46,17 +46,26 @@ const FlightDetail = () => {
         class: form.class,
         seat: form.seat,
       };
-      dispatch(insertBooking(body));
+      const handleSuccess = (data) => {
+        if(data.data.status === "success"){
+          alert("Booking Ticket Success");
+        }else{
+          alert(data.data.message);
+        }
+      }
+      dispatch(insertBooking(body, handleSuccess));
   
       if(body.status === 1){
-        const handleSuccess = (data) => {console.log(data)}
+        const handleSuccess = (data) => {
+          if(data.data.status === "success"){
+            return navigate("/mybook");
+          }
+        }
         const body = {
           balance: thisUser.balance - (insurance ? ticket[0].price + (ticket[0].price * 5 / 100) : ticket[0].price)
         }
         dispatch(updateUser(body, thisUser.id_user, handleSuccess))
       }
-      alert("Booking Ticket Success");
-      return navigate("/mybook");
     }
   };
 

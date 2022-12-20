@@ -21,7 +21,7 @@ export const getDetailBooking = (id, handleSuccess) => ({
     axios
       .get(`${process.env.REACT_APP_BACKEND_URL}/booking/detail/${id}`)
       .then((res) => {
-        handleSuccess(res)
+        handleSuccess(res);
         resolve(res);
       })
       .catch((err) => {
@@ -30,12 +30,13 @@ export const getDetailBooking = (id, handleSuccess) => ({
   }),
 });
 
-export const insertBooking = (body) => ({
+export const insertBooking = (body, handleSuccess) => ({
   type: "ADD_BOOKING",
   payload: new Promise((resolve, reject) => {
     axios
       .post(`${process.env.REACT_APP_BACKEND_URL}/booking/insert`, body)
       .then((res) => {
+        handleSuccess(res);
         resolve(res);
       })
       .catch((err) => {
