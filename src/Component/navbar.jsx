@@ -90,7 +90,7 @@ const Navbar = () => {
               </div>
               <Link to="/profile">
                 <img
-                  src={`${user.photo.split('|&&|')[0]}`}
+                  src={`${user.photo?.split('|&&|')[0]}`}
                   onError={replaceImage}
                   width="40"
                   className="mobileProfileNavbar rounded-circle customBorder"

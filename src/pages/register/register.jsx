@@ -31,11 +31,11 @@ const Register = () => {
           const handleSuccess = (data) => {
             if(data.data.code !== 200){
               alert('error:' + data.data.message)
-          }
-          else{
-              console.log(data.data)
-              return navigate('/login')
-          }
+            }
+            else{
+                alert("Register success")
+                return navigate('/login')
+            }
           }
           dispatch (userRegister(form, handleSuccess))
       }    

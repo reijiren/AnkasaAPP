@@ -59,7 +59,7 @@ const Profiles = () => {
         <div className="row text-center">
           <div className="col-md-12 my-2">
             <img
-              src={`${user.user.photo.split('|&&|')[0]}`}
+              src={`${user.user.photo?.split('|&&|')[0]}`}
               onError={replaceImage}
               width="100"
               alt=""
