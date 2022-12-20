@@ -88,7 +88,7 @@ const Profiles = () => {
               {user.user.fullname}
             </h3>
             <p className="text-muted">
-              {user.user.city}, Indonesia
+              {user.user.city ? `${user.user.city}, Indonesia` : "-"}
             </p>
           </div>
           <div className="col-md-12">
