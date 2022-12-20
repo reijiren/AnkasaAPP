@@ -79,6 +79,7 @@ const Profile = () => {
                         id="inputPhone"
                         name="phone"
                         disabled={!editform}
+                        maxLength={12}
                         placeholder="+62"
                         defaultValue={
                           user.isLoading
