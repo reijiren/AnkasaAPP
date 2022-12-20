@@ -88,7 +88,7 @@ const InsertFlight = () => {
 							>
 								<option value={null} disabled selected hidden>Select airline</option>
 								{
-									airline.length === 0 ? 
+									airline?.length === 0 ? 
 									<option value={null} disabled>No Airline Found</option> : 
 									airline.map((e, i) => (
 										<option key={i} value={e.id_airline}>{e.name}</option>

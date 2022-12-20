@@ -284,7 +284,7 @@ const SeacrhResult = () => {
                     </button>
                     <div id="select-airline" className="collapse-airline show">
                       {
-                        listAirline.length === 0 ? (
+                        listAirline?.length === 0 ? (
                           <div className="mt-2 col-md-10">
                             <span>No Airline Found</span>
                           </div>
@@ -532,7 +532,7 @@ const SeacrhResult = () => {
                   Loading...
                 </span>
               ) : ticket &&
-              ticket.length === 0 ? (
+              ticket?.length === 0 ? (
                 <span className="text-center text-secondary">
                   Data not found!
                 </span>

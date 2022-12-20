@@ -64,7 +64,7 @@ const UpdateFlights = () => {
 								id="formGroupExampleInput"
 							>
 								{
-									airline.length === 0 ? 
+									airline?.length === 0 ? 
 									<option value={null} disabled>No Airline Found</option> : 
 									airline.map((e, i) => (
 										<option key={i} value={e.id_airline} selected={e.id_airline === detail.airline ? true : false}>{e.name}</option>
